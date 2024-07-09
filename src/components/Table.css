@@ -1,0 +1,30 @@
+/* src/components/Table.css */
+.search-input {
+     margin: 10px 0;
+     padding: 5px;
+     font-size: 16px;
+}
+
+.reset-button,
+.delete-button {
+     margin: 0 5px;
+     padding: 5px 10px;
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.user-table {
+     width: 100%;
+     border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+
+.user-table th {
+     background-color: #f2f2f2;
+     text-align: left;
+}
